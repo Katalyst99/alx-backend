@@ -30,5 +30,10 @@ msgstr "Hello world!"
 msgid "logged_in_as"
 msgstr "You are logged in as %(username)s."
 
+#: templates/5-index
 msgid "not_logged_in"
 msgstr "You are not logged in."
+
+#: templates/0-index
+msgid "current_time_is"
+msgstr "The current time is %(current_time)s."
