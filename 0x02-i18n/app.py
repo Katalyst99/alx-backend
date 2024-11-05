@@ -33,7 +33,7 @@ def helloWorld() -> str:
 
 
 @babel.timezoneselector
-def get_timezone():
+def get_timezone() -> str:
     """Function that gets the time"""
     tz = request.args.get('timezone')
     if tz:
